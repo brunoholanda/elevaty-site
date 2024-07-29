@@ -1,10 +1,10 @@
-
+import * as S from './Styles';
 
 export default function Footer() {
 
     return (
-        <footer >
-            <p>Todos os direitos reservados</p>
-        </footer>
+        <S.Footer >
+            <p>© Elevaty - 2024 Todos os direitos reservados.</p>
+        </S.Footer>
     );
 }

@@ -20,7 +20,8 @@ export const ChatContainer = styled.div`
 `;
 
 export const ChatHeader = styled.div`
-  background: linear-gradient(to right, #00A1FF, #A100FF); 
+  background: linear-gradient(to right, #ffc400, #eeff00); 
+
   color: white;
   padding: 10px;
   text-align: center;

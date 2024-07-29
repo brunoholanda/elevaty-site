@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import BlogPosts from "./Blog";
 import Clients from "./Clients";
 import Crescimento from "./Crescimento";
 import Process from "./Process";
@@ -12,6 +13,7 @@ export default function Home() {
             <Process />
             <Promo />
             <Crescimento />
+            <BlogPosts />
         </>
     );
 }

@@ -6,18 +6,19 @@ export const MenuLinks = styled.div`
 
     a {
         text-decoration: none;
-        color: var(--cinza-texto);
+        color: #fff;
         margin-left: 3em;
         font-family: var(--fonte-secundaria);
         font-size: 1.25rem;
-        font-weight: 500;
+        font-weight: 400;
+        transition: 0.5s ease;
+
     }
 
     a:hover {
-        color: var(--preto);
-        font-weight: 700;
-    }
+        transform: scale(1.05);
 
+    }
 
 .arrow {
     margin-left: 5px;

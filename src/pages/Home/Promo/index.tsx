@@ -1,5 +1,4 @@
 import * as S from './Styles';
-import background from '../../../assets/img/banner-2.png'; // Adicione o caminho correto para sua imagem de fundo
 
 export default function Promo() {
     return (

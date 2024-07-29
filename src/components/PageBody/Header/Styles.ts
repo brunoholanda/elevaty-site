@@ -9,13 +9,15 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 20px;
-    background-color: #fff;
+    padding: 15px 20px;
+    background-color: var(--laranja);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 
     img {
         width: 150px;
+        height: 25px;
+        margin-top: .1rem;
     }
 
     .mobile {

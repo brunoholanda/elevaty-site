@@ -1,11 +1,13 @@
 import styled from 'styled-components';
+import background from '../../../assets/img/banner-bg.png'; // Adicione o caminho correto para sua imagem de fundo
 
 export const Banner = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
-    background-image: url(../../../../src/assets/img/banner-bg.png);
+    background-image: url(${background});
+
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
