@@ -5,7 +5,7 @@ export const NotFound = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1em 8em;
+    margin: 15em 8em 0 8em;
     font-family: var(--fonte-principal);
 
     h1 {

@@ -1,8 +1,8 @@
 import { useEffect, lazy, Suspense, useState } from 'react';
 import { Route, Routes, useLocation, HashRouter, Navigate } from 'react-router-dom';
 import FloatingButton from './components/FloatingButton';
-import Loading from './components/Loading';
 import Posts from './pages/Manager';
+import LoadingElevaty from './components/LoadingElevaty/LoadingElevaty';
 
 const Home = lazy(() => import('./pages/Home'));
 const NotFound = lazy(() => import('./pages/404'));
@@ -36,7 +36,7 @@ function AppRoutes() {
   return (
     <HashRouter>
       <ScrollToTop />
-      <Suspense fallback={<Loading />}>
+      <Suspense fallback={<div className='loading-global'><LoadingElevaty duration="durFast"/></div>}>
         <Routes>
           <Route path="/" element={<PageBody />}>
             <Route index element={<Home />} />
