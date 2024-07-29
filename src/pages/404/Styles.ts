@@ -23,7 +23,7 @@ export const NotFound = styled.div`
 
 @media screen and (max-width: 768px) {
 
-        margin: 1em 2em;
+        margin: 15em 2em;
         flex-direction: column;
 
         img {

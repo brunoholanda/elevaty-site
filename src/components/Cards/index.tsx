@@ -57,4 +57,9 @@ const CardsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0rem;
+
+  }
 `;

@@ -5,6 +5,13 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+
+  @media screen and (max-width: 768px) {
+    max-width: 380px;
+    padding: 0;
+    margin: 0 auto;
+
+  }
 `;
 
 export const Header = styled.div`
@@ -26,6 +33,11 @@ export const Button = styled.button`
 
 export const Content = styled.div`
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    display: inline-block;
+
+  }
 `;
 
 export const MainPosts = styled.div`
@@ -70,6 +82,7 @@ export const PostSummary = styled.p`
   color: #666;
 `;
 
+/*
 export const SidePosts = styled.div`
   display: flex;
   flex-direction: column;
@@ -92,4 +105,5 @@ export const SidePostInfo = styled.div`
   display: flex;
   flex-direction: column;
 `;
+*/
 

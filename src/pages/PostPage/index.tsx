@@ -62,6 +62,11 @@ const Container = styled.div`
   margin: 0 auto;
   padding: 2rem;
   margin-top: 5rem;
+
+  @media screen and (max-width: 768px) {
+    max-width: 350px;
+
+  }
 `;
 
 const PostImage = styled.img`

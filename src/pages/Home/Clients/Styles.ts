@@ -36,7 +36,6 @@ export const Clients = styled.div`
             gap: 10px;
 
             img {
-                max-height: 40px;
                 margin: 5px;
             }
         }

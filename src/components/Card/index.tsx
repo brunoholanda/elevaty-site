@@ -40,6 +40,7 @@ const CardContainer = styled.div`
   margin: 1rem;
   max-width: 320px;
   height: 90%;
+
 `;
 
 const CardImage = styled.img`

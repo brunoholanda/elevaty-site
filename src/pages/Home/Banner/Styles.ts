@@ -66,9 +66,25 @@ export const Banner = styled.div`
     @media screen and (max-width: 768px) {
         flex-direction: column;
         text-align: center;
+        margin-top: 3rem;
 
         .banner-text {
             margin-bottom: 20px;
+            margin-left: 0rem;
+            .highlights {
+            display: flex;
+            gap: 20px;
+
+           justify-content: center;
+            
+            p {
+                font-size: 14px;
+                color: #fff;
+                background-color: orange;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+        }
         }
 
         .banner-img {
@@ -77,6 +93,8 @@ export const Banner = styled.div`
                 margin: 0 auto;
             }
         }
+
+        
     }
 `;
 

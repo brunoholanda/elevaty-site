@@ -50,7 +50,8 @@ export const Promo = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 20px;
-        height: auto;
+        height: 400px;
+        width: 280px;
 
         .conteudo {
             h2 {

@@ -26,7 +26,7 @@ export const Header = styled.header`
 
     @media screen and (max-width: 1024px) {
         flex-direction: column;
-        margin: 1.5em 1em;
+        margin: 0em 1em;
 
         .links {
             margin-top: 1em;
@@ -36,7 +36,7 @@ export const Header = styled.header`
     @media screen and (max-width: 768px) {
         flex-direction: row;
         justify-content: space-around;
-        margin: 1.5em 2em;
+        margin: 0;
 
         .mobile {
             display: flex;
